@@ -605,6 +605,7 @@ classification_prompt = f"""Classify if the content from user role is related to
                             - Healthcare comparison across destinations
                             - General healthcare or treatments
                             - growcare & services - a medical tourism company
+                            - {growcare_data}
                             
                             If it is related to any of these topics, return 'Relevant'. 
                             Otherwise, return 'Not Relevant'.
